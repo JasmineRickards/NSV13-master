@@ -10,7 +10,7 @@
 	semi_auto = TRUE
 	maintainable = FALSE
 	fire_mode = FIRE_MODE_50CAL
-	max_ammo = 300
+	max_ammo = 200
 	circuit = /obj/item/circuitboard/machine/fiftycal
 	var/gunning_component_type = /datum/component/overmap_gunning/fiftycal
 	var/mob/living/gunner
@@ -151,7 +151,7 @@
 	name = "50 caliber rounds"
 	ammo_type = /obj/item/ammo_casing/fiftycal
 	caliber = "mm50pdc"
-	max_ammo = 300
+	max_ammo = 200
 
 /obj/item/ammo_box/magazine/pdc/fiftycal/examine(mob/user)
 	. = ..()
@@ -172,6 +172,6 @@
 /obj/item/projectile/bullet/fiftycal
 	icon_state = "50cal"
 	name = ".50 cal round"
-	damage = 10
+	damage = 17
 	flag = "overmap_light"
-	speed = 4
+	speed = 2

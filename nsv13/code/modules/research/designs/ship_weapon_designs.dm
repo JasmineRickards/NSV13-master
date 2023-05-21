@@ -171,29 +171,6 @@
 	id = "gauss_dispenser_circuit"
 	build_type = PROTOLATHE|IMPRINTER
 	materials = list(/datum/material/glass = 2000, /datum/material/copper = 200, /datum/material/gold = 500)
-	construction_time=100
 	build_path = /obj/item/circuitboard/machine/gauss_dispenser
-	category = list("Advanced Munitions")
-	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS
-
-/datum/design/board/NAC/phase
-	name = "Machine design (Phaser beam)"
-	desc = "Advanced naval artillery, at your fingertips."
-	id = "energy_phase"
-	materials = list(/datum/material/glass = 2000, /datum/material/copper = 2000, /datum/material/gold = 500)
-	construction_time=100
-	build_path = /obj/item/circuitboard/machine/energy/beam
-	build_type = PROTOLATHE|IMPRINTER
-	category = list("Advanced Munitions")
-	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS
-
-/datum/design/board/NAC/burst
-	name = "Machine design (Burst laser)"
-	desc = "Coaxial laser weaponry."
-	id = "energy_burst"
-	materials = list(/datum/material/glass = 2000, /datum/material/copper = 200, /datum/material/gold = 500)
-	construction_time=100
-	build_path = /obj/item/circuitboard/machine/energy/burst
-	build_type = PROTOLATHE|IMPRINTER
 	category = list("Advanced Munitions")
 	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS

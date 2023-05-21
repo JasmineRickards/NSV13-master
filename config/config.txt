@@ -15,13 +15,13 @@ $include resources.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'beestation' with the name of your choice.
-@SERVERNAME Potentially Elongated Naval Combat
+@SERVERNAME NSV 13 but not
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 #@SERVERSQLNAME ss13newbs
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME MSV Frontiers
+STATIONNAME Space Station 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
@@ -200,7 +200,7 @@ NORESPAWN
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY JessieProudmore
+HOSTEDBY Crossedfall
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -238,28 +238,28 @@ CHECK_RANDOMIZER
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
-#SERVER  byond://golden.beestation13.com:7777
+SERVER  byond://golden.beestation13.com:7777
 
 ## forum address
-https://transcendentenemy.mistforums.com/
+FORUMURL https://nsv.beestation13.com/phpBB3
 
 ## Wiki address
 WIKIURL https://nsv.beestation13.com/wiki/Main_Page
 
 ## Rules address
-RULESURL https://transcendentenemy.mistforums.com/thread/space-station-13-rules-485019
+RULESURL https://nsv.beestation13.com/wiki/Rules
 
 ## Github address
-#GITHUBURL https://github.com/BeeStation/NSV13
+GITHUBURL https://github.com/BeeStation/NSV13
 
 ## Label to tag ingame-registered issues with.
 ISSUE_LABEL Ingame Issue Report
 
 ## Donation URL
-#DONATEURL https://www.patreon.com/user?u=10639001
+DONATEURL https://www.patreon.com/user?u=10639001
 
 ## Discord Invite
-DISCORDURL https://discord.gg/Bc2qfuD
+DISCORDURL https://discord.gg/8rrttjN
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -550,7 +550,7 @@ CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
 
 ### Autotransfer Settings
 ## Uncomment to enable shuttle autotransfer
-#VOTE_AUTOTRANSFER_ENABLED
+VOTE_AUTOTRANSFER_ENABLED
 ## Time (in deciseconds) before the first transfer vote. Default: 90 minutes
 VOTE_AUTOTRANSFER_INITIAL 54000
 ## Time (in deciseconds) between subsequent transfer votes. Default: 30 minutes

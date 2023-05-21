@@ -11,8 +11,8 @@
 	bound_height = 128
 	semi_auto = TRUE
 	max_ammo = 1
-	obj_integrity = 1500
-	max_integrity = 1500
+	obj_integrity = 500
+	max_integrity = 500
 	safety = FALSE
 	maintainable = FALSE //This just makes them brick.
 	load_sound = 'nsv13/sound/effects/ship/freespace2/crane_short.ogg'

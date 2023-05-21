@@ -13,7 +13,7 @@
 	projectile_type = /obj/item/projectile/guided_munition/torpedo //What torpedo type we fire
 	pixel_x = -17
 	volatility = 3 //Very volatile.
-	explode_when_hit = FALSE //Yeah, this can't ever end well for you.
+	explode_when_hit = TRUE //Yeah, this can't ever end well for you.
 	var/claimable_gulag_points = 75
 
 /obj/item/ship_weapon/ammunition/torpedo/examine(mob/user)

@@ -1492,7 +1492,7 @@ Utility modules can be either one of these types, just ensure you set its slot t
 	overmap_firing_sounds = list('nsv13/sound/effects/ship/railgun_fire.ogg')
 	burst_size = 1
 	fire_delay = 0.2 SECONDS
-	max_ammo = 25
+	max_ammo = 10
 	tier = 1
 
 /obj/item/fighter_component/secondary/ordnance_launcher/torpedo

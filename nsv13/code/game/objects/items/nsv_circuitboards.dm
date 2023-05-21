@@ -225,23 +225,3 @@
 		/obj/item/stack/sheet/mineral/copper = 20,
 		/obj/item/stack/sheet/iron = 30,
 		/obj/item/stack/cable_coil = 10)
-
-/obj/item/circuitboard/machine/energy/burst
-	name = "Burst laser coaxial"
-	icon_state = "command"
-	build_path = /obj/machinery/ship_weapon/energy
-	req_components = list(
-		/obj/item/stock_parts/capacitor/quadratic = 2,
-		/obj/item/stack/cable_coil = 2,
-		/obj/item/stock_parts/micro_laser/quadultra = 1,
-		/obj/item/stock_parts/cell/bluespace = 2)
-
-/obj/item/circuitboard/machine/energy/beam
-	name = "Phaser beam circuit board"
-	icon_state = "command"
-	build_path = /obj/machinery/ship_weapon/energy/beam
-	req_components = list(
-		/obj/item/stock_parts/capacitor/quadratic = 4,
-		/obj/item/stack/cable_coil = 2,
-		/obj/item/stock_parts/micro_laser/quadultra = 2,
-		/obj/item/stock_parts/cell/bluespace = 6)

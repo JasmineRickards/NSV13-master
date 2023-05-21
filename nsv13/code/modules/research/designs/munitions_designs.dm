@@ -101,7 +101,7 @@
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 500, /datum/material/copper = 500)
 	build_path = /obj/item/ship_weapon/parts/missile/warhead
 	category = list("Advanced Munitions")
-	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS
+	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS	
 
 
 //Torp Parts
@@ -215,25 +215,5 @@
 	build_type = PROTOLATHE
 	materials = list(/datum/material/iron=5000, /datum/material/titanium=5000, /datum/material/silver=1000,)
 	build_path = /obj/item/ship_weapon/ammunition/railgun_ammo
-	category = list("Advanced Munitions")
-	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS
-
-/datum/design/machine/energy/beam
-	name = "Phaser NAC"
-	desc = "Allows you to construct laser naval weaponry"
-	id = "energy_naval"
-	build_type = PROTOLATHE|IMPRINTER
-	materials = list(/datum/material/iron=500, /datum/material/titanium=500, /datum/material/silver=500,)
-	build_path = /obj/item/circuitboard/machine/energy/beam
-	category = list("Advanced Munitions")
-	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS
-
-datum/design/machine/energy/burst
-	name = "Burst laser NAC"
-	desc = "Allows you to construct laser naval weaponry"
-	id = "energy_naval_burst"
-	build_type = PROTOLATHE|IMPRINTER
-	materials = list(/datum/material/iron=500, /datum/material/titanium=500, /datum/material/silver=500,)
-	build_path = /obj/item/circuitboard/machine/energy/burst
 	category = list("Advanced Munitions")
 	departmental_flags = DEPARTMENTAL_FLAG_MUNITIONS

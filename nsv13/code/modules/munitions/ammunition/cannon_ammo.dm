@@ -5,7 +5,7 @@
 	icon_state = "pdc"
 	ammo_type = /obj/item/ammo_casing/light_cannon
 	caliber = "mm20"
-	max_ammo = 900
+	max_ammo = 500
 
 /obj/item/ammo_box/magazine/heavy_cannon
 	name = "heavy cannon ammo (30x173mm)"
@@ -14,7 +14,7 @@
 	icon_state = "pdc"
 	ammo_type = /obj/item/ammo_casing/heavy_cannon
 	caliber = "mm30"
-	max_ammo = 600
+	max_ammo = 400
 
 /obj/item/ammo_box/magazine/light_cannon/update_icon()
 	if(ammo_count() > 10)

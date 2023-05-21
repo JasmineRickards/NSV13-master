@@ -62,9 +62,9 @@ Starting Materials
 	var/resourcing_system = FALSE //System for generating additional RR
 	var/repair_resources = 0 //Pool of liquid metal ready to be pumped out for repairs
 	var/repair_resources_processing = FALSE
-	var/repair_efficiency = 2 //modifier for how much repairs we get per cycle
+	var/repair_efficiency = 0 //modifier for how much repairs we get per cycle
 	var/power_allocation = 0 //how much power we are pumping into the system
-	var/maximum_power_allocation = 5000000 //5MW
+	var/maximum_power_allocation = 3000000 //3MW
 	var/system_allocation = 0 //the load on the system
 	var/system_stress = 0 //how overloaded the system has been over time
 	var/system_stress_threshold = 100 //Threshold at which stress beings to build up

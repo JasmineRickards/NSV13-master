@@ -8,7 +8,7 @@
 	layer = LATTICE_LAYER //under pipes
 	plane = FLOOR_PLANE
 	obj_integrity = 200
-	max_integrity = 400
+	max_integrity = 200
 	var/obj/structure/overmap/parent = null
 	var/armour_scale_modifier = 4
 	var/armour_broken = FALSE

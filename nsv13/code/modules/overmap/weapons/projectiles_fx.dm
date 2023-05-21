@@ -67,7 +67,7 @@ Misc projectile types, effects, think of this as the special FX file.
 /obj/item/projectile/bullet/railgun_slug
 	icon_state = "mac"
 	name = "tungsten slug"
-	damage = 200
+	damage = 150
 	speed = 1
 	homing_turn_speed = 2
 	flag = "overmap_heavy"
@@ -81,7 +81,7 @@ Misc projectile types, effects, think of this as the special FX file.
 /obj/item/projectile/bullet/gauss_slug
 	icon_state = "gaussgun"
 	name = "tungsten round"
-	damage = 40
+	damage = 35
 	obj_integrity = 500 //Flak doesn't shoot this down....
 	flag = "overmap_heavy"
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/torpedo
@@ -89,14 +89,14 @@ Misc projectile types, effects, think of this as the special FX file.
 /obj/item/projectile/bullet/light_cannon_round
 	icon_state = "pdc"
 	name = "light cannon round"
-	damage = 15
+	damage = 10
 	spread = 2
 	flag = "overmap_light"
 
 /obj/item/projectile/bullet/heavy_cannon_round
 	icon_state = "pdc"
 	name = "heavy cannon round"
-	damage = 25
+	damage = 8.5
 	spread = 5
 	flag = "overmap_heavy" //This really needs a dual armour flag and more tuning
 
